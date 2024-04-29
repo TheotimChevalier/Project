@@ -30,7 +30,7 @@ class Jeux:
                     'Pikatchu', 'Ratata', 'Roucoups']
         pv_poke = [48, 49, 46, 50, 45, 47]
         
-        print("J1, Choisissez votre pokerut parmi la liste suivante: ")
+        print("J1, Choisissez votre pokemon parmi la liste suivante: ")
         for i in range(0, 6, 1):
             print("-", nom_poke[i])
         pokemon1 = int(input(""))-1.
@@ -38,7 +38,7 @@ class Jeux:
         print(nom_poke[int(pokemon1)], " à été sélectionné.")
         PV1 = pv_poke[int(pokemon1)]
         
-        print("J2, Choisissez votre pokerut parmi la liste suivante: ")
+        print("J2, Choisissez votre pokemon parmi la liste suivante: ")
         for i in range(0, 6, 1):
             print("-", nom_poke[i])
         pokemon2 = int(input(""))-1
